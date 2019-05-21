@@ -1,0 +1,41 @@
+nav	{
+	background-color: #eeeeee;
+	/*text-align: right;*/
+	position: relative;
+	/*height: 50px;*/
+}
+
+h1.logo {
+	display: inline;
+	padding: 10px;
+}
+ul.nav-list {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li a {
+
+}
+
+.container {
+	padding: 10px;
+	margin: 0;
+}
+
+.logo {
+	/*position: absolute;*/
+	font-size: 30px;
+	text-align: 
+
+}
+.nav-item	{
+	display: inline;
+	float: right;
+	display: block;
+	padding: 8px;
+	color: #999999;
+}
+
