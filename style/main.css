@@ -5,38 +5,80 @@ a {
 }
 
 img {
-	height: 30px;
+	height: 20px;
 	width: auto;
+	border: 1px solid gray;
+	position: relative;
+	top: 6px;
+}
+
+li {
+	padding: 5px;
 }
 
 .navbar {
-	background-color: gray;
+	background-color: #e6e6f1;
+	height: 50px;
+	position:fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+.nav-item {
+	display: inline-block;
+	position: relative;
+	left: 90%;
+	bottom: 30px;
+}
+
+.logo {
+	margin: auto;
+	padding: 10px;
+}
+h1 nav {
+	padding: 20px;
 }
 
 .search {
 	font-weight: bolder;
+	padding-top: 50px;
+	margin-bottom: auto;
+
 }
 
 p.search {
 	color: black;
 }
 
+.search-content {
+	padding: 5px;
+	border: 1px solid gray;
+	height: 10px;
+	width: 300px;
+}
 .container {
 	padding-right: 100px;
 	padding-left: 100px;
 	padding-top: 10px;
 }
 
-.container-fluid {
+/*.container-fluid {
 	padding-top: 10px;
-}
+}*/
 
 .rounded-edges {
-	border-radius: 50px;
+	border-radius: 5px;
+	width: 300px;
+	text-align: center;
+	color: black;
+	height: 30px;
+	/*padding: 10px;*/
 }
 
 .list-navigation {
 	border: 1px solid gray;
+	margin-top: 30px;
 }
 
 .list-navigation-prev {
@@ -45,6 +87,16 @@ p.search {
 
 .list-navigation-next {
 	border-left: 1px solid gray;
+}
+
+.list-navigation-prev, .list-navigation-next, .num-items {
+	position: relative;
+	top: 5px;
+	padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
 }
 .postition-title {
 	color: blue;
