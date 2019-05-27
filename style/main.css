@@ -14,8 +14,12 @@ img {
 
 li {
 	padding: 5px;
+	list-style-type: none;
 }
 
+ul	{
+	padding: 0;
+}
 .navbar {
 	background-color: #e6e6f1;
 	height: 50px;
