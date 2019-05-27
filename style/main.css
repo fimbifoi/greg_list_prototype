@@ -1,41 +1,55 @@
-nav	{
-	background-color: #eeeeee;
-	/*text-align: right;*/
-	position: relative;
-	/*height: 50px;*/
+a {
+	text-decoration: none;
+	color: blue;
+	font-weight: bold;
 }
 
-h1.logo {
-	display: inline;
-	padding: 10px;
-}
-ul.nav-list {
-	display: inline;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
+img {
+	height: 30px;
+	width: auto;
 }
 
-li a {
+.navbar {
+	background-color: gray;
+}
 
+.search {
+	font-weight: bolder;
+}
+
+p.search {
+	color: black;
 }
 
 .container {
-	padding: 10px;
-	margin: 0;
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-top: 10px;
 }
 
-.logo {
-	/*position: absolute;*/
-	font-size: 30px;
-	text-align: 
-
-}
-.nav-item	{
-	display: inline;
-	float: right;
-	display: block;
-	padding: 8px;
-	color: #999999;
+.container-fluid {
+	padding-top: 10px;
 }
 
+.rounded-edges {
+	border-radius: 50px;
+}
+
+.list-navigation {
+	border: 1px solid gray;
+}
+
+.list-navigation-prev {
+	border-right: 1px solid gray;
+}
+
+.list-navigation-next {
+	border-left: 1px solid gray;
+}
+.postition-title {
+	color: blue;
+}
+.date-posted, .company {
+	color: gray;
+	font-weight: normal;
+}
